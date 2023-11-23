@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+button {
+  width:100px;
+  height:50px;
+  margin-top: 40px;
+  font-size: 25px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(223, 246, 255);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#listContainer {
+  width: 90%;
+  padding:15px;
+  margin: 10px;
+  font-size: 40px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: rgb(93, 203, 247);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(146, 214, 241);
+}
+
+#listItem{
+  text-align: left;
+  width: 90%;
+  float:left;
+}
+
+#checkbox {
+  height: 30px;
+  aspect-ratio: 1 / 1;
+}
+
+#taskInput{
+  width: 40%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding:15px;
+  background-color: rgb(93, 203, 247);
+  border-radius: 5px;
+  height:30px;
+}
+
+#taskText {
+  width: 15%;
+  float:left;
+  margin: 0;
+  height:30px;
+  font-size: 20px;
+  background-color: rgb(113, 212, 252);
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: rgb(113, 64, 192);
+  color: white;
+}
+
+#textBox {
+  width: 60%;
+  float:left;
+  height:30px;
+  padding:0;
+  border:0;
+  margin-left:5px;
+  margin-right:5px;
+}
+
+#Submit {
+  width: 15%;
+  float:left;
+  height:30px;
+  background-color: rgb(113, 64, 192);
+  padding:0;
+  border:0;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+h1 {
+  font-size: 6vw;
+  background-color: rgb(218, 195, 255);
+  width:fit-content;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 20px;
+  border-radius: 15px;
+  color:rgb(123, 24, 236)
+}
+
+#showHide {
+  width: 100%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  height:30px;
+  background-color: rgb(113, 64, 192);
+  border-radius: 5px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  color:white;
+}
+
+#list {
+  width: 40%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: rgb(218, 195, 255);
+  border-radius: 5px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  color:white;
+}
